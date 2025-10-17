@@ -162,9 +162,9 @@ export default function App() {
             className="relative w-full flex items-center bg-black/25 
              border-b border-white/10 [--gap:clamp(0.5rem,10cqw,16rem)] shadow-lg"
           >
-            <div className="max-w-5xl h-6 basis-1/5
+            <div className="max-w-5xl h-10 basis-1/5
                   flex items-center justify-center text-white">
-              <div className="text-lg font-semibold text-white">Site</div>
+              <div className="text-xl font-semibold text-white">Site</div>
             </div>
 
             <div className="basis-2/5"></div>
@@ -181,8 +181,8 @@ export default function App() {
                           "transition-all duration-300 ease-in-out transform",
 
                           isActive
-                            ? "text-emerald-400 text-xs -translate-y-0 scale-75"
-                            : "text-emerald-50 text-xs hover:-translate-y-0.5 hover:scale-80 hover:text-emerald-200 translate-y-0 scale-75"
+                            ? "text-emerald-400 text-lg -translate-y-0 scale-75"
+                            : "text-emerald-50 text-lg hover:-translate-y-0.5 hover:scale-80 hover:text-emerald-200 translate-y-0 scale-75"
                         ].join(" ")
                       }
                     >{e.name}</NavLink>
